@@ -1,0 +1,20 @@
+class: Board
+table: board
+fields:
+  workspaceId: int, parent=workspace
+  userId: int, parent=trellouser
+  name: String
+  description: String?
+  visibility: String
+  background: String
+  starred: bool?
+  enableCover: bool?
+  watch: bool?
+  availableOffline: bool?
+  label: String?
+  emailAddress: String?
+  commenting: int?
+  memberType: int?
+  pinned: bool?
+  selfJoin: bool?
+  close: bool?

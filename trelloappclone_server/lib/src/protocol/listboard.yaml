@@ -1,0 +1,8 @@
+class: Listboard
+table: listboard
+fields:
+  boardId: int, parent=board
+  userId: int, parent=trellouser
+  name: String
+  archived: bool?
+  cards: List<Cardlist>?, api 

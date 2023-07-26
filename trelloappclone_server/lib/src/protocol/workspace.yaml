@@ -1,0 +1,8 @@
+class: Workspace
+table: workspace
+fields:
+  userId: int, parent=trellouser
+  name: String
+  description: String
+  visibility: String
+  members: List<Member>?, api

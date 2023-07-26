@@ -1,0 +1,6 @@
+class: Checklist
+table: checklist
+fields:
+  cardId: int, parent=card
+  name: String
+  status: bool

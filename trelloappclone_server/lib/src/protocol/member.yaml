@@ -1,0 +1,7 @@
+class: Member
+table: member
+fields:
+  workspaceId: int, parent=workspace
+  userId: int, parent=trellouser
+  name: String
+  role: String

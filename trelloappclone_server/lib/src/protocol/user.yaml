@@ -1,0 +1,6 @@
+class: User
+table: trellouser
+fields:
+  name: String?
+  email: String
+  password: String

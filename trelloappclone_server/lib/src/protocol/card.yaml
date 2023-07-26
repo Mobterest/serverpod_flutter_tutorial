@@ -1,0 +1,13 @@
+class: Cardlist
+table: card
+fields:
+  listId: int, parent=listboard
+  userId: int, parent=trellouser
+  name: String
+  description: String?
+  startDate: DateTime?
+  dueDate: DateTime?
+  attachment: bool?
+  archived: bool?
+  checklist: bool?
+  comments: bool?
